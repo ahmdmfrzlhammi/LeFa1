@@ -1,0 +1,90 @@
+/* Reset CSS */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 60px; /* Adjust as needed to avoid overlapping with the navbar */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffd700; /* Change the color on hover */
+}
+
+/* Content Styles */
+.content {
+    margin-top: 80px; /* Adjust as needed to avoid overlapping with the navbar */
+    text-align: center;
+}
+
+.h1 {
+  
+    color: #333;
+}
+
+.aturan {
+    font-weight: bold;
+    margin-left: 500px;
+}
+
+.apa {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Align the list items to the left */
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    align-items: left;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #333;
+    color: #fff;
+}

@@ -1,0 +1,41 @@
+nav{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: green;
+  color: blue;
+  font-weight: bold;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+/* Styling untuk tombol submit */
+.submit {
+    
+    color: white;
+    padding: 5px 10px; /* Menyesuaikan ukuran padding sesuai kebutuhan */
+    border: none;
+    border-radius: 5px; /* Menggunakan border-radius untuk sudut yang lebih lembut */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Transisi warna latar belakang saat dihover */
+
+    /* Menambahkan efek bayangan */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover state untuk tombol submit */
+
+
+h2{
+    text-align: center;
+}
+.login-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
